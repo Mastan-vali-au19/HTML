@@ -1,0 +1,167 @@
+body{
+    margin-left: 20%;
+    background-color:cornsilk;
+}
+.main{
+    width: 900px;
+    height: 700px;
+    border-color: rgb(230, 81, 22);
+    border-radius: 2%;
+    border-style: groove;
+    /* background-color: mediumseagreen; */
+    color: white;
+    box-shadow: 5px 5px rgb(209, 16, 9);
+    background-image: linear-gradient(to left,rgb(76, 76, 192),rgb(197, 14, 14),rgb(36, 137, 155));
+    
+}
+.main:hover{
+    width: 900px;
+    background-color: teal;    
+    background-image: linear-gradient(to bottom, rgb(105, 70, 70),rgb(43, 17, 117),rgb(214, 148, 33),cyan);
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    padding: 20px;
+    margin-top: 5%;
+}
+.display{
+    margin: 10px;
+    padding: 5px;
+}
+.primary{
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-color:grey;
+    text-align: center;
+    border-radius: 5px;
+    border: solid rgb(109, 106, 106);
+    transition: width 2s linear;
+}
+.primary:hover{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: 10px 10px rgb(94, 86, 94);
+    transform:scale(2,2);
+}
+.Secondary{
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-color:darkgray;
+    text-align: center;
+    border-radius: 5px;
+    border: solid rgb(73, 10, 124);
+    transition: width 2s linear;
+}
+.Secondary:hover{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: 10px 10px rgb(94, 86, 94);
+    transform: scale(2,2);
+}
+.Neutral{
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-color:gainsboro;
+    text-align: center;
+    border-radius: 5px;
+    border: solid rgb(10, 18, 119);
+    transition: width 2s linear;
+}
+.Neutral:hover{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: 10px 10px rgb(204, 185, 204);
+    transform: scale(2,2);
+}
+.Accent{
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-color:cyan;
+    text-align: center;
+    border-radius: 5px;
+    border: solid rgb(73, 196, 36);
+    transition: width 2s linear;
+}
+.Accent:hover{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: 10px 10px rgb(72, 167, 184);
+    transform: scale(2,2);
+}
+.Success{
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-color:green;
+    text-align: center;
+    border-radius: 5px;
+    border: solid rgb(206, 209, 15);
+    transition: width 2s linear;
+}
+.Success:hover{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: 10px 10px rgb(31, 189, 10);
+    transform: scale(2,2);
+}
+.Alert{
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    text-align: center;
+    border-radius: 5px;
+    border: solid rgb(16, 201, 115);
+    transition: width 2s linear;
+}
+.Alert:hover{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: 10px 10px rgb(209, 16, 9);
+    transform: scale(2,2);
+}
+.Warning{
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    text-align: center;
+    border-radius: 5px;
+    border: solid rgb(165, 10, 23);
+    transition: width 2s linear;
+}
+.Warning:hover{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: 10px 10px rgb(209, 189, 13);
+    transform: scale(2,2);
+}
+.Info{
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-color:paleturquoise;
+    text-align: center;
+    border-radius: 5px;
+    border: solid rgb(231, 90, 34);
+    transition: width 2s linear;
+}
+.Info:hover{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: 10px 10px rgb(147, 182, 187);
+    transform: scale(2,2);
+}
