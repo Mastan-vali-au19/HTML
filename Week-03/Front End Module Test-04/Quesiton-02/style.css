@@ -1,0 +1,56 @@
+.container{
+    width:1000px;
+    height:700px;
+    border:solid 20px black;
+    margin-left: 18%;
+    padding: 2%;
+    display: flex;
+
+}
+.sub-container{
+    height:650px;
+    width: 450px;
+    background-color: rgb(14, 14, 48);
+    border-radius: 10px;
+}
+.head{
+    font-size: xxlarge;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    padding-left: 20px;
+    
+}
+.head1{
+    color: white;
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+h3{
+    font-size: small;
+    color: white;
+    padding-left:  20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1,h6{
+    color:white;
+}
+.price{
+    width:450px;
+    height:110px;
+    background-color: tomato;
+    border-radius: 5px;
+    font-size: larger;
+    color: white;
+    
+
+}
+.amount{
+    font-size:xx-large;
+    text-align: center;
+}
+.img{
+    height: 200px;
+    width: 400px;
+    display: flex;
+}
