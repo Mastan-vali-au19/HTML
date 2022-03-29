@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #D3D3D3;
+    position: fixed; 
+    top: 0; 
+    width: 98%;
+    height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 5px;
+}
+.navbar a:hover {
+    background: white;
+    color: green;
+  }
+a{
+    text-decoration: none;
+    color:black;
+}
+.main {
+    padding: 16px;
+    margin-bottom: 30px;
+    height: 1500px; 
+  }
+.bottom {
+    background-color: #D3D3D3;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    height: 50px;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 5px;
+  }
+  .box1{
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+      border-radius: 5px;
+      padding: 1%;
+      margin: 10px;
+  }  
